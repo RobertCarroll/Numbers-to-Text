@@ -1,7 +1,7 @@
 package io.robertcarroll;
 
 public class App {
-    public void engine(){
+    private void engine(){
         NumberTranslator translator = new NumberTranslator();
         String input = UserInputHandler.getNumber("Enter a number to translate:");
         System.out.println( translator.translateNumber(input) );
